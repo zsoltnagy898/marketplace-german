@@ -23,7 +23,7 @@ home:
     section_1: 'Einfach - verwalten Sie alle Business-Apps gebündelt an einem Ort'
     section_2: 'Ein Ansprechpartner - mit uns bekommen Sie den Support den Sie benötigen, wenn Sie ihn benötigen!'
     section_3: 'Sparen Sie Zeit - mit unseren passenden Business Apps zu mehr Produktivität, Wachstum & Sicherheit!'
-  go_to_product: 'Go to product'
+  go_to_product: 'Zum Produkt'
 listing:
   filters: 'Filtern'
   catergories: 'Kategorien'
@@ -45,6 +45,6 @@ help_menu: '<b>Kaufmännischer Support:</b> <br>
             '
 help_menu_title: 'Haben Sie Fragen?'
 searchBar:
-  placeholder: 'Find Applications'
+  placeholder: 'Suche'
 register_link: 'https://cloud-marketplace.vodafone.de/vap/#/saas-register'
 register_text: 'Registrieren'

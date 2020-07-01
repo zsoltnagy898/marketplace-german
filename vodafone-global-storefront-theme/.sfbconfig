@@ -4,6 +4,11 @@
       "themeName": "vodafone",
       "marketplacePath": "https://testvfgroup.appdirect.com/home",
       "pageObjectsPath": "https://marketplace.appdirect.com/api/internal/storefront/v1"
+    },
+    {
+      "themeName": "test",
+      "marketplacePath": "https://testvfgermany.appdirect.com",
+      "pageObjectsPath": "https://testvfgermany.appdirect.com/api/internal/storefront/v1"
     }
   ],
   "defaultValues": {
@@ -14,5 +19,5 @@
   "projectName": "vodafoneGlobal",
   "current": "vodafone",
   "created": "2018-12-12T12:55:46.505Z",
-  "modified": "2018-12-12T12:55:46.505Z"
+  "modified": "2020-07-01T08:14:43.988Z"
 }

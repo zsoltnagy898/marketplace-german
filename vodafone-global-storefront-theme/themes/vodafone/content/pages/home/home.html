@@ -33,10 +33,10 @@
 
 {% block data %}
 <data type="navigator"/>
-<data name="recommendedSolutions"/>
-<data name="carousel"/>
-<data name="popularApps"/>
-<data name="collaboration"/>
+<data name="recommendedSolutions" type="list"/>
+<data name="carousel" type="list" />
+<data name="popularApps" type="list"/>
+<data name="collaboration" type="list"/>
 {% endblock %}
 
 
@@ -46,6 +46,13 @@
 
 
 <div id="home">
+    <section class="section section--abbey">
+        {% for item in productLists.popularapps.items %}
+
+        {{ item.name }}
+
+        {% endfor %}
+    </section>
     <section class="section section--white">
         <img src="{{r('/assets/images/banner-2.png')}}" class="section-bg"/>
         {{ carousel('hero', productLists.customLists.carousel, productLists.customLists.carousel.products) }}
