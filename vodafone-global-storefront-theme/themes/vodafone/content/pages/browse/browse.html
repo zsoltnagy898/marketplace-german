@@ -3,6 +3,7 @@
 {% from "/macros/listing/listing-items.html" import listingItems %}
 
 {% block content %}
+
 <div class="row listing listing-page row--spaced" data-sort='{{ listing.query.order }}'>
     <div id="sectionNavigation" class="col col-fix-4 d-none d-sm-block">
         {{ navigator(nav.primary) }}

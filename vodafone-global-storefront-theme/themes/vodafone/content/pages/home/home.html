@@ -33,10 +33,10 @@
 
 {% block data %}
 <data type="navigator"/>
-<data name="recommendedSolutions" type="list"/>
-<data name="carousel" type="list" />
-<data name="popularApps" type="list"/>
-<data name="collaboration" type="list"/>
+<data name="recommendedSolutions"/>
+<data name="carousel"/>
+<data name="popularapps"/>
+<data name="collaboration"/>
 {% endblock %}
 
 
@@ -46,26 +46,19 @@
 
 
 <div id="home">
-    <section class="section section--abbey">
-        {% for item in productLists.popularapps.items %}
-
-        {{ item.name }}
-
-        {% endfor %}
-    </section>
     <section class="section section--white">
         <img src="{{r('/assets/images/banner-2.png')}}" class="section-bg"/>
         {{ carousel('hero', productLists.customLists.carousel, productLists.customLists.carousel.products) }}
     </section>
     <section class="section section--white">
         <div class="d-block d-lg-none">
-            {{ carousel('popularAppsMobile', productLists.customLists.popularApps,
-            productLists.customLists.popularApps.products, 'list', true, false, true, 'mobile', 1, false, false,
+            {{ carousel('popularAppsMobile', productLists.popularapps,
+                productLists.popularapps.items, 'list', true, false, true, 'mobile', 1, false, false,
             t(i18n.custom.home.popular_apps)) }}
         </div>
         <div class="d-none d-lg-block">
-            {{ carousel('popularAppsDesktop', productLists.customLists.popularApps,
-            productLists.customLists.popularApps.products, 'list', true, false, true, 'desktop', 3,false, false,
+            {{ carousel('popularAppsDesktop', productLists.popularapps,
+            productLists.popularapps.items, 'list', true, false, true, 'desktop', 3,false, false,
             t(i18n.custom.home.popular_apps)) }}
         </div>
     </section>
