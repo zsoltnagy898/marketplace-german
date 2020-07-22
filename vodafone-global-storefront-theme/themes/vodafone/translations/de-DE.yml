@@ -1,7 +1,7 @@
 home:
   help: 'Hilfe'
   app_support: 'Support'
-  business_apps: 'Business apps'
+  business_apps: 'Business Apps'
   search: 'Suche'
   login: 'Anmelden'
   contact_us: 'Kontakt'
@@ -20,7 +20,7 @@ home:
   view_more: 'Erfahren Sie mehr'
   all_apps: 'All apps'
   why_vodafone:
-    section_1: 'Einfach - verwalten Sie alle Business-Apps gebündelt an einem Ort'
+    section_1: 'Einfach - verwalten Sie alle Business-Apps gebündelt an einem Ort!'
     section_2: 'Ein Ansprechpartner - mit uns bekommen Sie den Support den Sie benötigen, wenn Sie ihn benötigen!'
     section_3: 'Sparen Sie Zeit - mit unseren passenden Business Apps zu mehr Produktivität, Wachstum & Sicherheit!'
   go_to_product: 'Zum Produkt'
@@ -28,7 +28,7 @@ listing:
   filters: 'Filtern'
   catergories: 'Kategorien'
   sort_by: 'Sortieren nach'
-  clear_filters: 'Filter löschen'
+  clear_filters: 'Filtern löschen'
   list_view: 'Listenansicht'
   grid_view: 'Gitterdarstellung'
   buy_now: 'Jetzt kaufen'
@@ -41,7 +41,7 @@ help_menu: '<b>Kaufmännischer Support:</b> <br>
             <b>Technischer Support:</b> <br>
             Mo - Fr | 8 - 18 Uhr <br>
             E-Mail: <a  href="mailto: fu-ict.support@vodafone.com">fu-ict.support@vodafone.com</a> <br>
-            Telefon: <a href="tel: 0800 5035 215>0800 5035 215</a>"
+            Telefon: <a href="tel: 0800 5035 215">0800 5035 215>0800 5035 215</a>
             '
 help_menu_title: 'Haben Sie Fragen?'
 searchBar:
