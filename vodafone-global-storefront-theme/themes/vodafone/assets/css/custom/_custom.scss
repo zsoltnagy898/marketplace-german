@@ -8991,3 +8991,15 @@ p {
 .ad-universalnav .navigation__link--icon {
   margin: 0 10px;
 }
+
+.dropdown-menu.show {
+  top: 45px !important;
+}
+
+.dropdown-menu.show {
+  height: auto;
+  min-height: 200px;
+  max-height: 500px;
+  overflow-y: scroll;
+  transform: none !important;
+}
