@@ -9003,3 +9003,11 @@ p {
   overflow-y: scroll;
   transform: none !important;
 }
+
+.carousel .carousel-control-next {
+  right: -20px;
+}
+
+.carousel .carousel-control-prev {
+  left: -20px;
+}
