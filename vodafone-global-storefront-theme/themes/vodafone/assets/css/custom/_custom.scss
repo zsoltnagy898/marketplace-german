@@ -9004,15 +9004,27 @@ p {
   transform: none !important;
 }
 
-.carousel .carousel-control-next {
-  right: -20px;
+.ad-universalnav .footer__links {
+  font-family: VodafoneRegular !important;
 }
 
-.carousel .carousel-control-prev {
-  left: -20px;
+#logocol {
+  width: 60%;
+  @include media-breakpoint-down(md) {
+      width: 100%;
+    }
 }
 
-.heading {
-  font-family: "VodafoneLight", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+#socialcol {
+  width: 39%;
+  @include media-breakpoint-down(md) {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+.ad-universalnav .footer__curtain {
+  @include media-breakpoint-down(md) {
+    padding: 20px !important;
+  }
 }
