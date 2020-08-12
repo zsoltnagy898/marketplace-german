@@ -9028,3 +9028,16 @@ p {
     padding: 20px !important;
   }
 }
+
+.carousel .carousel-control-next {
+  right: -20px;
+}
+
+.carousel .carousel-control-prev {
+  left: -20px;
+}
+
+.heading {
+  font-family: "VodafoneLight", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
