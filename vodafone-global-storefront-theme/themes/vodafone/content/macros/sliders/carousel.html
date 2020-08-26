@@ -7,7 +7,7 @@
 <div class="container">
     <div id="{{id}}"
          class="carousel slide features-slider-image {{'high-height' if showViewMore}} {{'high-height-image' if itemTheme === 'profile'}} {{'low-height' if itemTheme === 'logo'}} {{'grey-bg' if greyBg}} {{'wider-controls' if widerControls}}"
-         data-ride="carousel">
+         data-ride="carousel" data-interval="false">
         {% if showTitle %}
         {% if title %}
         <h3 class="text-center heading heading--3 heading--center heading--leading">{{title}}</h3>
