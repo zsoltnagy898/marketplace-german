@@ -9030,14 +9030,32 @@ p {
 }
 
 .carousel .carousel-control-next {
-  right: -20px;
+  right: -26px;
 }
 
 .carousel .carousel-control-prev {
-  left: -20px;
+  left: -26px;
 }
 
 .heading {
-  font-family: "VodafoneLight", Helvetica, Arial, sans-serif;
+  font-family: "VodafoneRegular", Helvetica, Arial, sans-serif;
   font-weight: 100;
 }
+
+#Features {
+
+}
+
+.adb-styled .adb-link__nav.adb-is-selected {
+  position: relative;
+  color: #fff;
+  box-shadow: 0 0 0 1px #006080;
+  border-top-color: #e60000;
+  background-color: #e60000;
+}
+
+#onetrust-pc-sdk,
+#onetrust-consent-sdk {
+  display: none;
+}
+

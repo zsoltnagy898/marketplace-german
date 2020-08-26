@@ -44,12 +44,12 @@
     &.selected {
         color: #fff;
         box-shadow: 0 0 0 1px #006080;
-        border-top-color: #338099;
-        background-color: #338099;
+        border-top-color: #e60000;
+        background-color: #e60000;
         &:active,
         &:focus,
         &:hover {
-            background-color: #338099;
+            background-color: #e60000;
         }
     }
 }

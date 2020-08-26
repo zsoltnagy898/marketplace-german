@@ -5,7 +5,7 @@ home:
   search: 'Search'
   login: 'Log in'
   contact_us: 'Contact us'
-  contact_support: 'Contact'
+  contact_support: 'Contact Support'
   popular_apps: 'Popular Apps'
   recommended_solutions: 'Recommended solutions'
   why_buy_business_apps_from_vodafone: 'Why buy Business Apps from Vodafone'
@@ -36,12 +36,12 @@ help_menu: '<b>Commercial Support:</b> <br>
             Mo - Thur I 9 - 17 Hrs <br>
             Fr I 9 - 16 Hrs <br>
             email: <a href="mailto: VCHS.Servmgt.DE@vodafone.com">VCHS.Servmgt.DE@vodafone.com</a> <br>
-            Phone: <a href=""tel: 030 83212 1211>030 83212 1211</a> <br>
+            Phone: <a href="tel: 030 83212 1211">030 83212 1211</a> <br>
             <br>
             <b>Technical Support:</b> <br>
             Mo - Fr | 8 - 18 Hrs  <br>
             email: <a  href="mailto: fu-ict.support@vodafone.com">fu-ict.support@vodafone.com</a> <br>
-            Phone: <a href="tel: 0800 5035 215">0800 5035 215</a>
+            Phone: <a href="tel: 0800 5035 215">0800 5035 215</a>"
             '
 help_menu_title: 'Need help?'
 searchBar:
